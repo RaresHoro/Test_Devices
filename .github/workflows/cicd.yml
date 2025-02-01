@@ -23,7 +23,7 @@ jobs:
 
     - name: Verify Install
       run: |
-        make install || { echo " Failed Installation"; exit 1; }
+        sudo make install || { echo " Failed Installation"; exit 1; }
       
 
     
